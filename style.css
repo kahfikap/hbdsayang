@@ -1,0 +1,227 @@
+html{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    visibility: hidden;
+}
+
+.container > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.three {
+    font-size: 1.8rem;
+    display: none;
+}
+
+.three {
+    font-size: 2.5rem;
+}
+
+.four {
+    display: none;
+}
+
+/* four */
+.textbox {
+    border: 3px solid #aaa;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0.8rem;
+    position: relative;
+    width: 95%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.textbox__chat {
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.textbox__chat span {
+    visibility: hidden;
+}
+
+.fake__button {
+    background-color: rgb(21, 161, 237);
+    border-radius: 3px;
+    bottom: -50px;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    position: absolute;
+    right: 5px;
+}
+
+/* five */
+.five p {
+    font-size: 1.5rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    word-wrap: break-word;
+}
+
+.idea__3 strong {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.idea__5 {
+    font-size: 2rem;
+}
+
+.idea__5 span, .idea__6 span {
+    display: inline-block;
+}
+
+.idea__6 span {
+    font-size: 5rem;
+    }
+
+/* six */
+.six {
+    position: relative;
+    top: 10vh;
+    z-index: 1;
+    text-align: center;
+}
+
+.profile{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.wish__hbd {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+}
+
+.wish__text {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+/* seven */
+.baloons img {
+    opacity: 0;
+    display: block;
+    position: absolute;
+}
+
+.baloons img:nth-child(even){
+    left: -10%;
+}
+
+.baloons img:nth-child(odd){
+    right: -10%;
+}
+
+.baloons img:nth-child(3n + 0){
+    left: 30%;
+}
+
+.seven {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.eight svg {
+    width: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 25px;
+    z-index: -1;
+}
+
+.eight svg:nth-child(1) {
+    fill: #bd6ecf;
+    left: 10vw;
+    top: 10vh;
+}
+
+.eight svg:nth-child(2) {
+    fill: #7dd175;
+    left: 40vw;
+    top: 25vh;
+}
+
+.eight svg:nth-child(3) {
+    fill: #349d8b;
+    left: 60vw;
+    top: 35vh;
+}
+
+.eight svg:nth-child(4) {
+    fill: #347a9d;
+    left: 60vw;
+    top: 45vh;
+}
+
+.eight svg:nth-child(5) {
+    fill: #c66053;
+    left: 15vw;
+    top: 70vh;
+}
+
+.eight svg:nth-child(6) {
+    fill: #bfaa40;
+    left: 80vw;
+    top: 45vh;
+}
+
+.eight svg:nth-child(7) {
+    fill: #e38bae;
+    left: 40vw;
+    top: 85vh;
+}
+
+.eight svg:nth-child(8) {
+    fill: #8762cb;
+    left: 85vw;
+    top: 70vh;
+}
+
+.eight svg:nth-child(9) {
+    fill: #9a90da;
+    left: 90vw;
+    top: 90vh;
+}
